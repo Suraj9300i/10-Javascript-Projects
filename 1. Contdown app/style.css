@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: url("img.jpg");
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+}
+
+.heading {
+    font-size: 6rem;
+    font-weight: 600;
+    padding: 3rem 0 1.5rem 0;
+}
+
+.h-IN {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.time {
+    display: inline-block;
+    padding-right: 3rem;
+}
+.time:last-child {
+    padding-right: 0;
+}
+
+.timeX {
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.time-suffix {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.colon {
+    display: inline-block;
+    font-size: 8rem;
+    padding-right: 2rem;
+    transform: translateY(-2.5rem);
+}
