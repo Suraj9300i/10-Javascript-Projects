@@ -1,0 +1,140 @@
+/*
+font-family: 'Poppins', sans-serif;
+*/
+
+:root {
+    --clr_purple: #c034eb;
+    --clr_red: #e23535;
+    --clr_yellow: #efbc5a;
+    --clr_blue1: #7754e8;
+    --clr_blue2: #2c0e94;
+    --clr_gray: #88949d;
+    --clr_white: #f6f6f8;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(
+        to right,
+        var(--clr_blue1),
+        var(--clr_blue2)
+    );
+    text-align: center;
+}
+
+.quixBox {
+    margin: 3rem;
+}
+
+.hide {
+    display: none;
+}
+
+.question {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--clr_white);
+}
+
+.timer {
+    height: 6rem;
+    width: 6rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1rem solid var(--clr_red);
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--clr_white);
+}
+
+.answerBox {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 4rem 2rem;
+}
+
+.optionBox {
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--clr_white);
+    border-radius: 3rem;
+    margin-right: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.optionBox_selected {
+    background-color: gold;
+    color: var(--clr_white);
+}
+
+.index {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding: 1rem;
+    background-color: greenyellow;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--clr_white);
+    margin: 2rem auto;
+}
+
+.index-A {
+    background-color: orangered;
+}
+.index-B {
+    background-color: var(--clr_red);
+}
+.index-C {
+    background-color: var(--clr_blue2);
+}
+.index-D {
+    background-color: var(--clr_yellow);
+}
+
+.answer {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.btn,
+.btn:link,
+.Re-Start,
+.Re-Start:link {
+    text-decoration: none;
+    font-size: 2rem;
+    background-image: linear-gradient(
+        to right,
+        var(--clr_purple),
+        var(--clr_red)
+    );
+    padding: 1rem 4rem;
+    border-radius: 100px;
+    color: var(--clr_white);
+}
+
+/* 
+<div class="resultBox">
+        <p class="score">Your Score is : 5</p>
+        <p class="summary">Very Good</p>
+    </div>
+*/
+
+.resultBox {
+    margin: 5rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--clr_white);
+}
